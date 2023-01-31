@@ -4,7 +4,10 @@ function displayTime() {
   var rightNow = moment().format('DD MMM YYYY [at] hh:mm:ss a');
   timeDisplayEl.text(rightNow);// function to grab the time 
     }
-    displayTime()
+    
+      
+    
+    
 
 setInterval(function(){
 if((moment().minute() == 0) && (moment().second() ==0)){
@@ -65,4 +68,8 @@ function handleSaveAction(buttonElem){
   localStorage.setItem(hourId,eventText);
 }
  // tell to show the time 
-setInterval(1000); // get the time ticking
+ 
+  // get the time ticking
+  
+  setInterval(displayTime)
+  
