@@ -7,3 +7,6 @@ The hours range from 9am - 5pm.Depending on what time you use the planner, the p
 In my planner you can save tasks you need to do and close the application down, when the application is reopened the tasks will still be present.
 
 You do have a live timer on the page so you know what time it is.
+
+my deplyed website link
+https://ar871.github.io/hourly-day-planner/
